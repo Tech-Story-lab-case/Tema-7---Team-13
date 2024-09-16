@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+  background-color: F5F5F5;
+  margin: 2rem;
+}
+
+main {
+  margin: 2rem;
+}
+
+h1,
+h2,
+a {
+  color: #1f2d40;
+}
+
+a {
+  text-decoration: none;
+}
+
+article {
+  background-color: rgb(163, 163, 163);
+  padding: 2rem;
+  margin: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  main {
+    margin: 0.3rem;
+  }
+
+  html {
+    margin: 0.5rem;
+  }
+}
