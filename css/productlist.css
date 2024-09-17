@@ -25,13 +25,13 @@ article {
   margin: 1rem;
 }
 
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
 @media screen and (min-width: 900px) {
-  .grid3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-    row-gap: 2rem;
-  }
 }
 
 @media screen and (max-width: 910px) {
