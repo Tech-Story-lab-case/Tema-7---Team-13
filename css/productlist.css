@@ -9,7 +9,8 @@ main {
 }
 
 h1,
-h2,
+.navn,
+.brand,
 a {
   color: #1f2d40;
 }
