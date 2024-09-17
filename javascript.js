@@ -20,16 +20,14 @@ function showItems(items) {
 
 function showSingleItem(item) {
   console.log("item", item);
-  /*
   //fanger template
-  const template = document.querySelector("template").content;
-
+  const template = document.querySelector("#ProductTemplate").content;
   //cloner
   const clone = template.cloneNode(true);
   //ændrer indhold
-  clone.querySelector("a").textContent = cat.category;
-  clone.querySelector("a").href = `productlist.html?category=${cat.category}`;
+  clone.querySelector(".navn").textContent = item.navn;
+  clone.querySelector(".brand").textContent = item.brand;
+  // clone.querySelector("a").href = `productlist.html?category=${cat.category}`;
   //appender
-  document.querySelector(".categorylist").appendChild(clone);
-  */
+  document.querySelector("main").appendChild(copy);
 }
