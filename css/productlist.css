@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background-color: F5F5F5;
+  background-color: #f5f5f5;
   margin: 2rem;
 }
 
@@ -8,19 +8,26 @@ main {
   margin: 2rem;
 }
 
+.arrow {
+  width: 5%;
+  margin: 1px;
+}
+
 h1,
 .navn,
 .brand,
 a {
   color: #1f2d40;
-}
-
-a {
   text-decoration: none;
 }
 
+a :hover {
+  text-decoration: underline;
+  color: #545454;
+}
+
 article {
-  background-color: rgb(163, 163, 163);
+  /* background-color: rgb(163, 163, 163); */
   padding: 2rem;
   margin: 1rem;
 }
@@ -37,6 +44,15 @@ img {
 }
 
 @media screen and (min-width: 900px) {
+  .productlist main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
+    gap: 2rem;
+  }
+  .arrow {
+    width: 8%;
+    margin: 1px;
+  }
 }
 
 @media screen and (max-width: 910px) {

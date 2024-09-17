@@ -6,23 +6,26 @@
     <title>Productlist</title>
     <link rel="stylesheet" href="css/productlist.css" />
   </head>
-  <body>
+  <body class="productlist">
     <header></header>
 
-    <template id="ProductTemplate">
-      <section>
-        <div>
-          <article>
-            <img src="productlist_img/camera.png" alt="Kamera" />
-            <h2 class="navn"></h2>
-            <p class="brand"></p>
-            <a href="">Se mere</a>
-          </article>
-        </div>
-      </section>
-    </template>
     <h1>MEDIEPRODUKTION & UNDERHOLDNING</h1>
     <main>
+      <template id="ProductTemplate">
+        <section>
+          <div>
+            <article>
+              <img src="productlist_img/camera.png" alt="Kamera" />
+              <h2 class="navn"></h2>
+              <p class="brand"></p>
+              <a href=""
+                >Se mere
+                <img src="productlist_img/arrow.svg" class="arrow" alt="Kamera"
+              /></a>
+            </article>
+          </div>
+        </section>
+      </template>
       <!-- <section class="grid3">
         <div>
           <article>
