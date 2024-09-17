@@ -8,7 +8,7 @@ const args = {
 };
 
 fetch(
-  "https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?category=eq.Studiofacilities&select=navn,brand,category",
+  "https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?category=eq.Studio facilities",
   args
 )
   .then((response) => response.json())
@@ -29,5 +29,5 @@ function showSingleItem(item) {
   clone.querySelector(".brand").textContent = item.brand;
   // clone.querySelector("a").href = `productlist.html?category=${cat.category}`;
   //appender
-  document.querySelector("main").appendChild(copy);
+  document.querySelector("main").appendChild(clone);
 }
