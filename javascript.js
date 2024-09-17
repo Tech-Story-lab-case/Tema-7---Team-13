@@ -8,7 +8,7 @@ const args = {
 };
 
 fetch(
-  "https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?category=eq.Studio facilities&select=id,navn,category",
+  "https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?category=eq.Studiofacilities&select=navn,brand,category",
   args
 )
   .then((response) => response.json())
