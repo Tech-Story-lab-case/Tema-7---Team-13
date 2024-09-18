@@ -35,7 +35,7 @@ html{
 body{
     font-family: var(--ff-main);
     font-size: var(--fs-main);
-    background-color: var(--bg-clr);
+    /* background-color: var(--bg-clr); */
 }
 
 main p{
