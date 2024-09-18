@@ -4,10 +4,6 @@ html {
   margin: 2rem;
 }
 
-main {
-  margin: 2rem;
-}
-
 .arrow {
   width: 5%;
   margin: 1px;
@@ -32,13 +28,6 @@ article {
   margin: 1rem;
 }
 
-.grid3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 2rem;
-  row-gap: 2rem;
-}
-
 img {
   width: 100%;
 }
@@ -48,6 +37,7 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
     gap: 2rem;
+    margin-left: 2.5rem;
   }
   .arrow {
     width: 8%;
@@ -59,7 +49,7 @@ img {
 }
 
 @media screen and (max-width: 910px) {
-  .grid3 {
+  .productlist main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -67,11 +57,7 @@ img {
     margin-left: 2rem;
   }
 
-  main {
-    margin: 0.3rem;
-  }
-
   html {
-    margin: 0.5rem;
+    margin: 0.1rem;
   }
 }
