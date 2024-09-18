@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Product</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/singleproduct.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <nav>
+        <ul id="breadcrumb" class="breadcrumb"></ul>
+      </nav>
+      <h1 class="productname">product name</h1>
+      <div class="product">
+        <div>
+          <img src="img/kamera.webp" alt="kamera" />
+        </div>
+        <section class="productBox">
+          <h2>Produkt infomation</h2>
+          <dl>
+            <dt>Brand:</dt>
+            <dd class="brand">brand</dd>
+            <dt>Type:</dt>
+            <dd class="type">item type</dd>
+            <dt>Objectcode:</dt>
+            <dd class="objectcode">9097</dd>
+          </dl>
+          <a>
+            <button class="button_one">Book produktet her</button>
+            <!-- <button class="button_two">Se ledige kameralinser</button> -->
+          </a>
+        </section>
+      </div>
+
+      <form>
+        <h2>Kontakt <span class="pink">Tech & Story Lab</span> hvis du har spørgsmål til produktet:</h2>
+        <label for="navn">Navn:</label>
+        <input class="name" type="text" placeholder="Dit Fornavn" /> <label for="email">E-mail:</label> <input class="email" type="email" id="email" placeholder="Din E-mail" /> <label for="sporgsmal">Spørgsmål:</label>
+        <input class="question" type="text" id="sporgsmal" placeholder="Skriv dit spørgsmål..." />
+        <input type="submit" value="Send" />
+      </form>
+    </main>
+    <footer></footer>
+    <script src="product.js"></script>
+    <script src="breadcrumb.js"></script>
+  </body>
+</html>
