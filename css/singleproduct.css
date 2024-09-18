@@ -1,0 +1,148 @@
+.productBox{
+    background-color: var(--box-clr);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+
+.button_one,
+.button_two{
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: #A6A4A4;
+    border-radius: 10px;
+    font-family: var(--ff-headlines);
+    font-size: 15px;
+    color: white;
+    margin: 0.5rem;
+    margin-left: 5px;
+}
+.button_two:hover,
+.button_one:hover{
+   background-color: white;
+   color: #A6A4A4;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+dt{
+    font-weight: bold;
+}
+
+.pink{
+    color: #E782A9;
+}
+
+/* Form styling */ 
+form{
+    background-color: #EDEDED;
+    font-family: var(--ff-headlines);
+    color: #1F2D40;
+    font-weight: bolder;
+    padding: 27px;
+    display: block;
+}
+
+.name, .email {
+    width: 100%;
+    padding: 12px 20px;   
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: var(--ff-headlines);
+    font-weight: bold;
+    color: #A6A4A4;
+}
+
+.question{
+    width: 100%;
+    padding: 30px 20px;   
+    margin: 10px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: var(--ff-headlines);
+    font-weight: bold;
+    color: #A6A4A4;
+}
+
+input[type=submit]{
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem;
+    background-color: #A6A4A4;
+    border-radius: 10px;
+    font-family: var(--ff-headlines);
+    font-size: 15px;
+    color: white;
+    margin: 0.5rem;
+    margin-left: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: white;
+    color: #A6A4A4;
+}
+
+/* Breadcrumb styling */
+.breadcrumb {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb li {
+    margin-right: 10px;
+  }
+  
+  .breadcrumb li a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.2s ease;
+  }
+  
+  .breadcrumb li a:hover {
+    color: #0056b3;
+  }
+  
+  .breadcrumb li + li:before {
+    content: '›';
+    margin-right: 10px;
+    color: #6c757d;
+  }
+  
+  .breadcrumb li span {
+    color: #6c757d;
+  }
+
+@media (min-width: 800px) {
+
+.product{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+form{
+    margin: 80px 80px;
+    padding: 50px;
+}
+
+}

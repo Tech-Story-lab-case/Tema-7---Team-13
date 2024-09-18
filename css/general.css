@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/RobotoCondensed-VariableFont_wght.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../font/Inter-VariableFont_opsz\,wght.woff2") format("woff2");
+}
+
+html{
+    --fs-body: 20 px;
+    /* default styling */
+    --fs-xl: 3rem;
+    --fs-l: 1.5rem;
+    --fs-m: 1rem;
+    --fs-s: 0.8rem;
+
+    --bg-clr: #ffff;
+    --box-clr: #F5F5F5;
+    --index-clr: #E782A9;
+    --fh-clr: #1F2D40;
+    --p-tclr: #000000;
+    --h-tclr: #1F2D40;
+
+    --ff-main: "Inter", sans-serif;
+    --ff-headlines: "Roboto", sans-serif;
+
+    --lh-main: 2em;
+
+    --fw-headlines: bold;
+
+}
+
+body{
+    font-family: var(--ff-main);
+    font-size: var(--fs-main);
+    background-color: var(--bg-clr);
+}
+
+main p{
+    font-family: var(--ff-main);
+    font-size: var(--fs-m);
+    line-height: var(--lh-main);
+    color: var(--p-tclr);
+}
+
+h1{
+    font-family: var(--ff-headlines);
+    font-size: var(--fs-xl);
+    color: var(--h-tclr);
+    font-weight: var(--fw-headlines);
+}
+
+h2{
+    font-family: var(--ff-headlines);
+    font-size: var(--fs-l);
+    color: var(--h-tclr);
+}
+
