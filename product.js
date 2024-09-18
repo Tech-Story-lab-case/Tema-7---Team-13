@@ -1,10 +1,10 @@
 // const url = "https://mcsksxwejwxsymqyakzx.supabase.co"
 const urlParams = new URLSearchParams(window.location.search);
-// const id = urlParams.get("id");
+const id = urlParams.get("id");
 
-// const url = `https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?${id}`
+const url = `https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?${id}`
 
-const url = `https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?id=eq.B00007`
+// const url = `https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?id=eq.B00007`
 
 
 
