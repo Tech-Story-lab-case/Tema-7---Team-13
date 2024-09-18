@@ -7,10 +7,18 @@ const args = {
   },
 };
 
-fetch(
-  "https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?category=eq.Studio facilities",
-  args
-)
+const url = `https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?${id}`;
+
+fetch(url, {
+  method: "GET",
+  headers: {
+    apikey: key,
+  },
+})
+  // fetch(
+  //   "https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?category=eq.Studio facilities",
+  //   args
+  // )
   .then((response) => response.json())
   .then(showItems);
 
