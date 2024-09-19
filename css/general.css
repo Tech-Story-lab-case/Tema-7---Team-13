@@ -58,6 +58,16 @@ h2{
     color: var(--h-tclr);
 }
 
+/* tilbage pil styling */
+
+.arrow img{
+    width: 50px;
+}
+
+.arrow p{
+    display: flex;
+}
+
 /* footer styling */
 
 #footer {
