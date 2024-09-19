@@ -4,16 +4,16 @@ const template = document.querySelector("#ProductTemplate").content;
 console.log(category);
 
 const url = `https://mcsksxwejwxsymqyakzx.supabase.co/rest/v1/techandstorylab?category=eq.${category}`;
-const key =
+const key1 =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1jc2tzeHdland4c3ltcXlha3p4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjU5MTM3NDgsImV4cCI6MjA0MTQ4OTc0OH0.gfO6uEwbi_JfAoGmaWYRt-o7OHdq_ftJdNs6eNGPBOw";
 
-const args = {
+const args1 = {
   headers: {
-    apikey: key,
+    apikey: key1,
   },
 };
 
-fetch(url, args)
+fetch(url, args1)
   .then((response) => response.json())
   .then((data) => showProducts(data));
 

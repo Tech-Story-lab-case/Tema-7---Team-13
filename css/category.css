@@ -99,7 +99,7 @@ h3 {
   font-size: 1.1rem;
 }
 
-button {
+.button {
   border: none;
   border-radius: 50px;
   padding: 0.5rem 1.5rem;
@@ -111,7 +111,7 @@ button {
   transition-duration: 0.2s;
 }
 
-button:hover {
+.button:hover {
   scale: 1.1;
   background-color: #ffffff;
 }
@@ -182,7 +182,7 @@ button:hover {
     max-width: 80ch;
   }
 
-  button {
+  .button {
     border: none;
     border-radius: 50px;
     padding: 1rem 3rem;
@@ -193,7 +193,7 @@ button:hover {
     transition-duration: 0.2s;
   }
 
-  button:hover {
+  .button:hover {
     scale: 1.1;
     background-color: #ffffff;
   }
