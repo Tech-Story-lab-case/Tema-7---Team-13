@@ -24,7 +24,6 @@ function showProducts(products) {
 }
 
 function showProduct(product) {
-  //console.log(product);
   //fang template
   //lav kopi
   const copy = template.cloneNode(true);
