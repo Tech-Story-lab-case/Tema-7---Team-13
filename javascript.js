@@ -35,6 +35,7 @@ function showSingleItem(item) {
   //ændrer indhold
   clone.querySelector(".navn").textContent = item.navn;
   clone.querySelector(".brand").textContent = item.brand;
+  clone.querySelector("a").href = `singleproduct.html?id=${item.id}`;
   // clone.querySelector("a").href = `productlist.html?category=${cat.category}`;
   //appender
   document.querySelector("main").appendChild(clone);
