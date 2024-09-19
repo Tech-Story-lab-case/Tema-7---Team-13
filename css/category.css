@@ -52,36 +52,36 @@ p {
 
 .overlay_1 {
   background-image: url("../images/category_imgs/299750223_1111198559823766_121793524809863838_n\ copy.jpg");
-  background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
-  background-position: center; /* Centrerer billedet */
-  background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   aspect-ratio: 1/1;
   margin: 10px;
 }
 
 .overlay_2 {
   background-image: url("../images/category_imgs/308868554_395873125884874_8241128588531132727_n\ copy.jpg");
-  background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
-  background-position: center; /* Centrerer billedet */
-  background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   aspect-ratio: 1/1;
   margin: 10px;
 }
 
 .overlay_3 {
   background-image: url("../images/category_imgs/299489996_113571831455514_4491342396542660814_n copy.jpg");
-  background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
-  background-position: center; /* Centrerer billedet */
-  background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   aspect-ratio: 1/1;
   margin: 10px;
 }
 
 .overlay_4 {
   background-image: url("../images/category_imgs/312838440_207538685006221_7236079950752817171_n.jpeg");
-  background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
-  background-position: center; /* Centrerer billedet */
-  background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   aspect-ratio: 1/1;
   margin: 10px;
 }
@@ -135,27 +135,27 @@ h3 {
 
   .overlay_1 {
     background-image: url("../images/category_imgs/299489996_113571831455514_4491342396542660814_n\ copy.webp");
-    background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
-    background-position: center; /* Centrerer billedet */
-    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     aspect-ratio: 1/1;
     margin: 30px;
   }
 
   .overlay_2 {
     background-image: url("../images/category_imgs/299750223_1111198559823766_121793524809863838_n\ copy.webp");
-    background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
-    background-position: center; /* Centrerer billedet */
-    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     aspect-ratio: 1/1;
     margin: 30px;
   }
 
   .overlay_3 {
     background-image: url("../images/category_imgs/308868554_395873125884874_8241128588531132727_n\ copy.webp");
-    background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
-    background-position: center; /* Centrerer billedet */
-    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     aspect-ratio: 1/1;
     margin: 30px;
   }
