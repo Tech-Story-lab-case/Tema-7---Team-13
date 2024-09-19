@@ -166,17 +166,21 @@ nav.active .menu li {
   list-style: none;
 }
 
-nav.active .menu a {
+.menu li a {
+    color: white ;
+}
+
+nav.active .menu li a {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
   text-decoration: none;
-  color: white !important;
+  color: white ;
   text-align: right;
 }
 
 nav.active .menu a:hover{
-  color: #ea5045 !important;
+  color: #ea5045 ;
 }
 
 .burger {
@@ -227,21 +231,22 @@ nav.active .menu a:hover{
   .menu li{
       text-decoration: none;
       list-style: none;
-      color: white;
+      /* color: white; */
       padding: 0
   }
 
-  .menu a{
+  .menu li a{
      text-decoration: none;
      transition-duration: .2s; 
+     color: white ;  
   }
 
-  .menu a:visited{
+  /* .menu a:visited{
       color: white !important;   
-  }
+  } */
 
   .menu a:hover{
-      color: #ea5045 !important;
+      color: #ea5045 ;
   }
 
   .logo img{
