@@ -100,39 +100,6 @@ input[type=submit]:hover{
     color: #A6A4A4;
 }
 
-/* Breadcrumb styling */
-.breadcrumb {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-  }
-  
-  .breadcrumb li {
-    margin-right: 10px;
-  }
-  
-  .breadcrumb li a {
-    text-decoration: none;
-    color: #007BFF;
-    transition: color 0.2s ease;
-  }
-  
-  .breadcrumb li a:hover {
-    color: #0056b3;
-  }
-  
-  .breadcrumb li + li:before {
-    content: '›';
-    margin-right: 10px;
-    color: #6c757d;
-  }
-  
-  .breadcrumb li span {
-    color: #6c757d;
-  }
-
 @media (min-width: 800px) {
 
 .product{
