@@ -175,6 +175,10 @@ nav.active .menu a {
   text-align: right;
 }
 
+nav.active .menu a:hover{
+  color: #ea5045 !important;
+}
+
 .burger {
   width: 30px;
   height: 20px;
@@ -233,11 +237,11 @@ nav.active .menu a {
   }
 
   .menu a:visited{
-      color: white;   
+      color: white !important;   
   }
 
   .menu a:hover{
-      color: #E782A9;
+      color: #ea5045 !important;
   }
 
   .logo img{

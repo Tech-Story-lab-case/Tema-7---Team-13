@@ -20,7 +20,7 @@ h1{
     color: #1F2D40;
 }
 h2{
-    font-size: 48pt;
+    font-size: 48pt !important;
     line-height: 45pt;
     margin-bottom: 30px;
 }
