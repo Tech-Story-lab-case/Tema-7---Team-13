@@ -1,0 +1,200 @@
+.section_grey {
+  background-color: rgb(245, 245, 245);
+  padding: 30px;
+}
+
+h2 {
+  font-family: helvetica;
+  color: rgb(31, 45, 64);
+  font-size: 3.5rem;
+}
+
+p {
+  font-family: roboto condensed, light;
+  font-size: 1.2rem;
+  color: rgb(31, 45, 64);
+}
+
+.padding {
+  padding: 15px;
+}
+
+.grid_category_1,
+.grid_category_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.p_red {
+  color: rgb(242, 75, 75);
+}
+
+#footer {
+  background-color: rgb(31, 45, 64);
+  padding: 25px;
+  margin-top: 30px;
+}
+
+#footer p {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+
+.p_bold {
+  font-size: 1.5rem !important;
+}
+
+.grid_category_1 img,
+.grid_category_2 img {
+  max-width: 100%;
+  scale: 90%;
+}
+
+.overlay_1 {
+  background-image: url("../images/category_imgs/299750223_1111198559823766_121793524809863838_n\ copy.jpg");
+  background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
+  background-position: center; /* Centrerer billedet */
+  background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+  aspect-ratio: 1/1;
+  margin: 10px;
+}
+
+.overlay_2 {
+  background-image: url("../images/category_imgs/308868554_395873125884874_8241128588531132727_n\ copy.jpg");
+  background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
+  background-position: center; /* Centrerer billedet */
+  background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+  aspect-ratio: 1/1;
+  margin: 10px;
+}
+
+.overlay_3 {
+  background-image: url("../images/category_imgs/299489996_113571831455514_4491342396542660814_n copy.jpg");
+  background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
+  background-position: center; /* Centrerer billedet */
+  background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+  aspect-ratio: 1/1;
+  margin: 10px;
+}
+
+.overlay_4 {
+  background-image: url("../images/category_imgs/312838440_207538685006221_7236079950752817171_n.jpeg");
+  background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
+  background-position: center; /* Centrerer billedet */
+  background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+  aspect-ratio: 1/1;
+  margin: 10px;
+}
+
+.center_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 1.1rem;
+}
+
+button {
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  color: #1f2d40;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  scale: 1.1;
+  background-color: #ffffff;
+}
+
+@media (min-width: 700px) {
+  #footer {
+    display: flex;
+    font-family: inter;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 0.7rem;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #footer p {
+    text-align: left;
+    color: rgb(255, 255, 255);
+  }
+
+  .overlay_1 {
+    background-image: url("../images/category_imgs/299750223_1111198559823766_121793524809863838_n\ copy.jpg");
+    background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
+    background-position: center; /* Centrerer billedet */
+    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+    aspect-ratio: 1/1;
+    margin: 30px;
+  }
+
+  .overlay_2 {
+    background-image: url("../images/category_imgs/308868554_395873125884874_8241128588531132727_n\ copy.jpg");
+    background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
+    background-position: center; /* Centrerer billedet */
+    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+    aspect-ratio: 1/1;
+    margin: 30px;
+  }
+
+  .overlay_3 {
+    background-image: url("../images/category_imgs/299489996_113571831455514_4491342396542660814_n copy.jpg");
+    background-size: contain; /* Tilpasser billedet, så det dækker hele skærmen */
+    background-position: center; /* Centrerer billedet */
+    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+    aspect-ratio: 1/1;
+    margin: 30px;
+  }
+
+  .overlay_4 {
+    background-image: url("../images/category_imgs/312838440_207538685006221_7236079950752817171_n.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    margin: 30px;
+  }
+
+  h3 {
+    color: white;
+    font-size: 3rem;
+  }
+
+  .padding {
+    padding: 30px;
+  }
+
+  .section_grey p {
+    max-width: 80ch;
+  }
+
+  button {
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 3rem;
+    color: #1f2d40;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    transition-duration: 0.2s;
+  }
+
+  button:hover {
+    scale: 1.1;
+    background-color: #ffffff;
+  }
+}
