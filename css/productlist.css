@@ -29,7 +29,7 @@ article {
 }
 
 img {
-  width: 100%;
+  width: 30%;
 }
 
 @media screen and (min-width: 900px) {
@@ -43,6 +43,15 @@ img {
     width: 8%;
     margin: 1px;
   }
+
+  section {
+    display: flex;
+  }
+
+  img {
+    width: 100%;
+  }
+
   /* h1 {
     margin-left: 3rem;
   } */
@@ -51,13 +60,32 @@ img {
 @media screen and (max-width: 910px) {
   .productlist main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
-  /* h1 {
+
+  img {
+    width: 100%;
+  }
+}
+/* h1 {
     margin-left: 2rem;
-  } */
+  }
 
   html {
     margin: 0.1rem;
   }
+}}}
+
+}
+
+/* main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+} */
+
+.title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
